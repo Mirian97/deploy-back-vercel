@@ -1,0 +1,30 @@
+{
+  "name": "teste-back-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirian97/deploy-back-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirian97/deploy-back-vercel/issues"
+  },
+  "homepage": "https://github.com/Mirian97/deploy-back-vercel#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "env": "0.0.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0"
+  }
+}
